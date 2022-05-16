@@ -1,0 +1,47 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+table {
+    border: none;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+#menu-h{
+    background-color: rgb(44, 43, 57);
+}
+
+#menu-h ul{
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li{
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background 4s;
+
+}
+#menu-h ul li a:hover{
+    background-color: blue;
+}
+
+#menu-h ul li:last-child a{
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
